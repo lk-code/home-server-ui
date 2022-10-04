@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeServer", "HomeServer\HomeServer.csproj", "{1321B32A-DC50-4131-A7D9-03F92459D8E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeServer.Core", "HomeServer.Core\HomeServer.Core.csproj", "{9C143E9B-19C2-4778-BABE-6AF13A0F5C51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeServer.Core", "HomeServer.Core\HomeServer.Core.csproj", "{9C143E9B-19C2-4778-BABE-6AF13A0F5C51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

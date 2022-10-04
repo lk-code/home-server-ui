@@ -1,6 +1,21 @@
-<body>
-  <app-nav-menu></app-nav-menu>
-  <div class="container">
-    <router-outlet></router-outlet>
-  </div>
-</body>
+<nb-layout>
+
+    <nb-layout-header fixed>
+
+    </nb-layout-header>
+
+    <nb-sidebar responsive>
+        <nb-menu [items]="menu"></nb-menu>
+    </nb-sidebar>
+
+    <nb-layout-column>
+
+        <router-outlet></router-outlet>
+
+    </nb-layout-column>
+
+    <nb-layout-footer fixed>
+
+    </nb-layout-footer>
+
+</nb-layout>
