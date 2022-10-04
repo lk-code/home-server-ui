@@ -6,4 +6,9 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'home-outline',
     link: '/dashboard',
   },
+  {
+    title: 'Einstellungen',
+    icon: 'settings-2-outline',
+    link: '/settings',
+  },
 ];

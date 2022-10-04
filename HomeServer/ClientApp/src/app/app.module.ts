@@ -17,11 +17,13 @@ import {
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { SettingsComponent } from './pages/settings/settings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,

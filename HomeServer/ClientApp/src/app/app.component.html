@@ -1,21 +1,32 @@
 <nb-layout>
 
-    <nb-layout-header fixed>
+  <nb-layout-header fixed>
 
-    </nb-layout-header>
+  </nb-layout-header>
 
-    <nb-sidebar responsive>
-        <nb-menu [items]="menu"></nb-menu>
-    </nb-sidebar>
+  <nb-sidebar responsive>
+    <nb-menu [items]="menu"></nb-menu>
+  </nb-sidebar>
 
-    <nb-layout-column>
+  <nb-layout-column>
 
-        <router-outlet></router-outlet>
+    <router-outlet></router-outlet>
 
-    </nb-layout-column>
+  </nb-layout-column>
 
-    <nb-layout-footer fixed>
+  <nb-layout-footer fixed>
 
-    </nb-layout-footer>
+    <span class="created-by">
+      Created with ♥ by <b><a href="https://lk-code.azurewebsites.net/" target="_blank">lk-code</a></b> 2022
+    </span>
+
+    <div class="socials">
+      <a href="#" target="_blank" class="ion ion-social-github"></a>
+      <a href="#" target="_blank" class="ion ion-social-facebook"></a>
+      <a href="#" target="_blank" class="ion ion-social-twitter"></a>
+      <a href="#" target="_blank" class="ion ion-social-linkedin"></a>
+    </div>
+
+  </nb-layout-footer>
 
 </nb-layout>
